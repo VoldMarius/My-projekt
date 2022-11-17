@@ -15,7 +15,7 @@
 
 
 Console.WriteLine("Введите высоту треугольника:   ");
-int heigthT = int.Parse(Console.ReadLine());
+int heigthT = Convert.ToInt32(Console.ReadLine());
 for (int t = 0; t <= heigthT; t++)
 {
     for (int g = 0; g <= t; g++)
